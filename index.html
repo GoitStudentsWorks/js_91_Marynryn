@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your energy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/js_91_Marynryn/assets/index-e6334396.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_91_Marynryn/assets/background-6386d22a.js">
+    <link rel="stylesheet" href="/js_91_Marynryn/assets/background-a7f38eca.css">
+    <link rel="stylesheet" href="/js_91_Marynryn/assets/index-a0b14d8a.css">
+  </head>
+  <body class="dark_mode">
+    <!-- Header -->
+    <header class="header">
+  <div class="header-container container">
+    <div class="decor-theme">
+      <a class="header-logo" href="./index.html">
+        <svg class="header-logo-img" width="132" height="24">
+          <use href="/js_91_Marynryn/assets/sport-sprite-ef17b475.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <div class="change_theme">
+        
+        <div class="change_theme--btn"></div>
+        <img
+          class="icon_sun"
+          width="32"
+          height="32"
+          src="/js_91_Marynryn/assets/icon-sun-c1acbddf.svg"
+          alt="Day"
+        />
+        <img
+          class="icon_moon"
+          width="32"
+          height="32"
+          src="/js_91_Marynryn/assets/icon-moon-7b5c72f3.svg"
+          alt="Night"
+        />
+      </div>
+    </div>
+    <ul class="header-pages">
+      <li class="header-pages-item pg-home">
+        <a class="header-item-link header-pages-active" href="./index.html"
+          >Home</a
+        >
+      </li>
+      <li class="header-pages-item pg-favorites">
+        <a class="header-pages-item-link page2" href="./page-2.html"
+          >Favorites</a
+        >
+      </li>
+    </ul>
+    <ul class="header-social">
+      <li class="header-social-item">
+        <a
+          class="social-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          aria-label="facebook"
+        >
+          <svg class="header-social-img" width="28" height="28">
+            <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-item">
+        <a
+          class="social-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          aria-label="instagram"
+        >
+          <svg class="header-social-img" width="28" height="28">
+            <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-item">
+        <a
+          class="social-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          aria-label="youtube"
+        >
+          <svg class="header-social-img" width="28" height="28">
+            <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <button class="header-burger js-open-menu" type="button">
+      <svg class="header-burger-img" width="32" height="32">
+        <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#burger"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+<div class="header-menu js-menu-container" id="mobile-menu">
+  <button
+    type="button"
+    class="menu-closed-btn menu-toggle js-close-menu"
+    aria-expanded="false"
+    aria-controls="mobile-menu"
+  >
+    <svg width="32" height="32">
+      <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-x"></use>
+    </svg>
+  </button>
+  <div class="header-mob-wrap">
+    <ul class="header-mob-wrap-pages">
+      <li class="mob-wrap-item">
+        <a class="mob-wrap-pages" href="./index.html">Home</a>
+      </li>
+      <li class="mob-wrap-item">
+        <a class="mob-wrap-pages" href="./page-2.html">Favorites</a>
+      </li>
+    </ul>
+    <ul class="mob-wrap-social">
+      <li class="header-mobile-wrap">
+        <a
+          class="header-mob-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          aria-label="facebook"
+        >
+          <svg class="header-mobile-img" width="28" height="28">
+            <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-mobile-wrap">
+        <a
+          class="header-mob-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          aria-label="instagram"
+        >
+          <svg class="header-mobile-img" width="28" height="28">
+            <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-mobile-wrap">
+        <a class="header-mob-link" 
+        target="_blank"
+            aria-label="youtube"
+        href="https://www.youtube.com/c/GoIT">
+          <svg
+            class="header-mobile-img"
+            width="28"
+            height="28"
+          >
+            <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero-background">
+  <div class="container hero-container">
+    <div class="hero-bigbox">
+      <div class="hero-box1">
+        <div class="first-section">
+          <h1 class="hero-header">
+            <svg class="hero-star-icon" width="60" height="60">
+              <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#big-star"></use>
+            </svg>
+            <span class="hero-span-uppercase">g</span
+            ><span class="hero-span-lowercase">et</span>
+            <span class="hero-span-uppercase hero-span-italic">b</span
+            ><span class="hero-span-italic">ody</span> in shape,
+            <span class="hero-span-uppercase hero-span">s</span>tay healthy
+          </h1>
+
+          <div class="hero-subtitle">
+            <div class="hero-p">
+              Transform your physique and embrace a healthier lifestyle with our
+              comprehensive fitness and nutrition support.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-box-rightside">
+        <div class="hero-box-image"></div>
+        <div class="hero-tags">
+          <button type="button" class="hero-button-filters button-filter">
+            #Sport
+          </button>
+          <button
+            type="button"
+            class="hero-button-filters button-filter hero-healthy"
+          >
+            #Healthy
+          </button>
+          <button
+            type="button"
+            class="hero-button-filters button-filter hero-workout"
+          >
+            #Workout
+          </button>
+          <button type="button" class="hero-button-filters button-filter">
+            #Diet
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hero-box2">
+      <div class="hero-image"></div>
+    </div>
+    <div class="hero-filters-wrapper">
+      <div class="hero-filters">
+        <button type="button" class="hero-button-filters button-filter">
+          #Sport
+        </button>
+        <button
+          type="button"
+          class="hero-button-filters button-filter hero-healthy"
+        >
+          #Healthy
+        </button>
+        <button
+          type="button"
+          class="hero-button-filters button-filter hero-workout"
+        >
+          #Workout
+        </button>
+        <button type="button" class="hero-button-filters button-filter">
+          #Diet
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="exercises">
+        <div class="container">
+          <!-- Body-parts -->
+          <div class="title-search-container">  
+  <h3 class="exercises-title"><span class="exercises-span-title">Exercises</span><span class="exercises-part-title"></span></h3>
+<div class="search-container"> 
+  <form class="exercises-form">
+      <input type="text" placeholder="Search" name="target" class="exercises-input" id="exercises-input">
+      <button type="submit" class="exercises-btn-form">
+          <svg class="exercises-search">
+              <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-search"></use>
+          </svg>
+      </button>
+  </form>
+  <ul class="exercises-list">
+      <li class="exercises-item">
+          <button type="button" class="exercises-btn js-btn-body-parts" data-id="bodypart">Body parts</button>
+      </li>
+
+      <li class="exercises-item">
+          <button type="button" class="exercises-btn js-btn-muscles" data-id="muscles">Muscles</button>
+      </li>
+
+      <li class="exercises-item">
+          <button type="button" class="exercises-btn js-btn-equipment" data-id="equipment">Equipment</button>
+      </li>
+  </ul>
+</div>
+</div>
+<div class="info-container">
+<!-- For cards with photo -->
+<div class="container-cards"> 
+<ul class="js-list-cards-photo"></ul>
+
+<ul class="js-list-cards-information"></ul>
+
+<!-- Tui Pagination -->
+<div id="pagination" class="tui-pagination"></div>
+</div>
+
+
+<div class="quote-item">
+  <div class="container-tablet">
+    <div class="js-quote-container">
+      <h3 class="quote-title">Quote of the day</h3>
+    </div>
+    <div class="quote-img-item"></div>
+  </div>
+  <div class="quote-static-item">
+    <h3 class="quote-static-title">110 min</h3>
+    <p class="quote-static-title-sec">Daily norm of sports</p>
+    <div class="quote-static-text">
+      The World Health Organization recommends at least 150 minutes of
+      moderate-intensity aerobic physical activity throughout the week for
+      adults aged 18-64. However, what
+      <span class="decor-text"
+        >happens if we adjust that number to 110 minutes every day? While it
+        might seem like a high number to hit, dedicating 110 minutes daily to
+        sporting activities may offer unparalleled benefits to physical health,
+        mental well-being, and overall quality of life.
+      </span>
+    </div>
+  </div>
+</div>
+
+</div>
+        </div>
+      </section>
+      <!-- Extra-->
+      <div class="loader" style="display: none;"></div>
+<button id="scrollToTopButton">
+    <svg class="scroll-icon" width="30" height="30">
+      <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-circle-up"></use>
+    </svg>
+</button>
+
+
+
+    </main>
+    <!-- Footer -->
+    
+<footer class="footer-container">
+  <div class="container">
+    <div class="footer-space">
+      <div class="footer-social">
+        <a href="./index.html">
+          <svg class="footer-logo-icon" width="132" height="24">
+            <use href="/js_91_Marynryn/assets/sport-sprite-ef17b475.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="footer-soc-links">
+          <li class="footer-list">
+            <a
+              class="footer-link"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              aria-label="facebook"
+            >
+              <svg class="icon-footer" width="40" height="40">
+                <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list">
+            <a
+              class="footer-link"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              aria-label="instagram"
+            >
+              <svg class="icon-footer" width="40" height="40">
+                <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list">
+            <a
+              class="footer-link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              aria-label="youtube"
+            >
+              <svg class="icon-footer" width="40" height="40">
+                <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-cont-form">
+        <div class="footer-text">
+          <p class="footer-title">Transforming your <span class="body">body</span>  shape with us</p>
+        </div>
+        <form class="footer-form" id="subscription-form">
+          <p class="footer-form-subt">
+            Subscribe and learn about new exercises!
+          </p>
+          <input
+            class="footer-input"
+            type="email"
+            name="email"
+            id="email-input"
+            placeholder="Email"
+            required 
+            />
+          <button type="submit" class="footer-button">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-update">
+      <div class="footer-total">
+        <p class="footer-info footer-descrip">
+          Your Energy. All rights reserved.
+        </p>
+        <p class="footer-info footer-privacy">
+          Privacy Policy / Terms of Service
+        </p>
+      </div>
+      <p class="footer-info footer-2023">&copy;2023</p>
+    </div>
+  </div>
+</footer>
+
+    <!-- Modal- Exercise-->
+    <section class="modal-section is-hidden">
+<div class="modal-window">
+    <button type="button" class="button-close" data-modal-close>
+        <svg  class="modal-icon" width="24" height="24">
+            <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-x"></use>
+        </svg>
+    </button>
+<div class="img-and-text">
+<img class="img-modal"  alt="how to do exersise"  src="#">
+<div class="text-info">
+<h2 class="name-exercies">Stationary bike walk</h2>
+<div class="rating">
+    <div class="rating_value">3.2</div>
+<div class="stars">
+    <svg class="star" width="16" height="16">
+        <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-star"></use>
+    </svg>
+    <svg class="star" width="16" height="16">
+        <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-star"></use>
+    </svg>
+    <svg class="star" width="16" height="16">
+        <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-star"></use>
+    </svg>
+    <svg class="star" width="16" height="16">
+        <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-star"></use>
+    </svg>
+    <svg class="star" width="16" height="16">
+        <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-star"></use>
+    </svg>
+</div>
+</div>
+<div class="info-of-exercises">
+<ul class="info-list">
+    <li class="options-info"> 
+        <span class="name-info">Target</span>
+        <p class="info target">Cardiovascular system</p>
+    </li>
+    <li class="options-info">
+    <span class="name-info">Body Part</span>
+        <p class="info body">Cardio</p>
+    </li >
+    <li class="options-info">
+        <span class="name-info">Equipment</span>
+        <p class="info equipment">Leverage machine</p>
+    </li>
+    <li class="options-info">
+        <span class="name-info">Popular</span>
+        <p class="info popular">0</p>
+    </li>
+</ul>
+</div>
+<p class="description-of-exercises">
+    While not a muscle, this system is essential for endurance training. Aerobic exercises like running, cycling, and
+    swimming improve cardiovascular health
+</p>
+</div>
+</div>
+<div class="madol-btn"><button class="btn-add-to-favorites" type="button">Add to favorites
+    <svg class="star" width="16" height="16">
+        <use href="/js_91_Marynryn/assets/icons-b11c80d8.svg#icon-heart"></use>
+    </svg>
+</button>
+</div>  
+</div>
+</section>
+    
+  </body>
+</html>
